@@ -1,0 +1,73 @@
+.ContentCadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.ContentCadastro > p {
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+}
+.ContentCadastro > p:active {
+  /* position: absolute;
+  top: 10vh;
+  left: 10vw;
+  cursor: pointer;
+  padding: 10px; */
+  background-color: #adadad;
+}
+
+.DialogCadastro > a {
+  margin-right: 5px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.DialogCadastro {
+  min-width: 25vw;
+  max-width: 25vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.DialogCadastro > .error {
+  color: #ff0c0c;
+  font-size: 15px;
+}
+
+.DialogCadastro > h2 {
+  margin-bottom: 20px;
+}
+
+.DialogCadastro > input {
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+.DialogCadastro > button {
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2b51eb;
+}
+
+.DialogCadastro > .links {
+  margin-top: 20px;
+  display: flex;
+}

@@ -1,0 +1,14 @@
+.RevealButton {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #2196f3;
+  border: 1px solid #fefefe;
+}
+
+.RevealButton:hover {
+  background-color: #03a9f4;
+}
+
+.RevealButton:active {
+  background-color: #f0f0f0;
+}
